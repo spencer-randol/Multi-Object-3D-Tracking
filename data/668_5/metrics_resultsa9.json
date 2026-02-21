@@ -1,0 +1,43 @@
+{
+  "folder": "data\\668_5",
+  "results_file": "resultsa9.csv",
+  "gate": 1.0,
+  "metrics": {
+    "T": 300,
+    "n_gt_ids": 5,
+    "n_track_ids": 49,
+    "counts": {
+      "total_gt": 1475,
+      "total_tr": 1335,
+      "matches": 1281,
+      "FN": 194,
+      "FP": 54
+    },
+    "coverage": {
+      "recall": 0.8684745762711864,
+      "precision": 0.9595505617977528
+    },
+    "identity": {
+      "total_id_switches": 38,
+      "avg_swaps_per_gt": 7.6,
+      "total_frags": 38,
+      "avg_frags_per_gt": 7.6,
+      "IDF1": 0.16441281138790034,
+      "IDTP": 231,
+      "IDFP": 1104,
+      "IDFN": 1244
+    },
+    "composite": {
+      "MOTA": 0.8061016949152542,
+      "MOTP": 0.2618565321699254
+    },
+    "track_management": {
+      "mean_abs_count_error": 0.5566666666666666
+    },
+    "performance": {
+      "avg_fps": 2853.743240751301,
+      "duration_s": 0.1033729999908246,
+      "frames_processed": 295
+    }
+  }
+}
